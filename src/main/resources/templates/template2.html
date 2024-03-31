@@ -1,15 +1,32 @@
-<!-- src/main/resources/templates/template.html -->
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-  <title>Default Title</title>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+  <!-- Add other meta tags, CSS links, etc. here -->
 </head>
 <body>
-<h1 th:text="${name}">Default Title</h1>
-<p th:text="${emailAddress}">Default Content</p>
-<p th:text="${extra}">Default Extra</p>
-<p th:text="${extra}">Default Extra</p>
-<p th:text="${extra}">Default Extra</p>
-<p th:text="${extra}">Default Extra</p>
+
+<!-- Header -->
+<header>
+  <h1 th:text="${name}">Name Template Header</h1>
+  <!-- Add other header content here -->
+</header>
+
+<!-- Main content of the page -->
+<div class="container">
+  <h2>Main Content Area</h2>
+  <h1 th:text="${name}">Default Title</h1>
+  <p th:text="${emailAddress}">Default Content</p>
+  <p th:text="${extra}">Default Extra</p>
+  <!-- Your main content here -->
+</div>
+
+<!-- Footer -->
+<footer>
+  <p th:text="${extra}">Default Extra Footer</p>
+  <p>© 2024 Sample. All rights reserved.</p>
+  <!-- Add other footer content here -->
+</footer>
+
 </body>
-</html>
