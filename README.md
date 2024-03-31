@@ -1,6 +1,6 @@
 # Sample HTML to PDF
 
-## Endpoint: /submit-data
+## Convert API
 
 ### Description
 This endpoint accepts JSON data containing dummy data in place of the placeholders in a thymeleaf templated HTML.
